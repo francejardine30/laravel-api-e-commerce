@@ -46,6 +46,7 @@ class ProductController extends Controller
 
         return response()->json([
             'data' => $product,
+            'message' => 'Product created successfully!'
         ], 201);
     }
 
